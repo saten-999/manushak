@@ -45,7 +45,7 @@ class CreateAdmin extends Command
             'password' =>  Hash::make('admin2022'),
 
         ]);
-        Admin::create([
+        User::create([
             'name' => 'User',
             'email' => 'user@gmail.com',
             'password' =>  Hash::make('user2022'),
