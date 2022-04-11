@@ -2,11 +2,11 @@
 
 @section('content')
 
-<div class="container-fluid mt-5">
+<div class="container-fluid ">
     <div class="row ">
         @foreach ($test as $item)
         
-            <div class="col-3  m-1">
+            <div class="col-3  mt-1">
                 
                 <a href="/course/{{$item->id}}" class=" h2 ">
                     <img src="{{asset("storage/".$item->img)}}" alt="" class="category">

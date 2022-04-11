@@ -57,22 +57,26 @@
                           {{-- <li class="nav-item">
                             <a class="nav-link" href="/videos">Վիդեոդասեր</a>
                           </li> --}}
-                          <li class="nav-item">
-                            <a class="nav-link" href="/subject">Առարկաներ</a>
-                          </li>
+                          
                           <li class="nav-item">
                             <a class="nav-link" href="/course">Դասընթացներ </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="/test">Թեստեր</a>
+                            <a class="nav-link" href="/test">Օգտակար գործիքներ</a>
                           </li>
-                          
+                          <li class="nav-item">
+                            <a class="nav-link" href="/subject">Դասագրքեր</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/connect">Բլոգ</a>
+                          </li>
                           <li class="nav-item">
                             <a class="nav-link" href="/connect">Հետադարձ կապ</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="/about">Մեր մասին</a>
                           </li>
+                          
                           @guest
                           @else
                             <li class="nav-item dropdown">
