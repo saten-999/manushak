@@ -27,8 +27,8 @@
     <div id="app" >
         <nav class="navbar navbar-expand-md   shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    Ուսուցման Համակարգ
+                <a class="navbar-brand" href="{{ url('/') }}" style="    margin-left: 100px;">
+                    <img src="/images/logo.png" alt="" style="width: 45px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -53,18 +53,20 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="/main">Գլխավոր <span class="sr-only">(current)</span></a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="/course">Դասընթացներ </a>
-                          </li>
+                          
                           {{-- <li class="nav-item">
                             <a class="nav-link" href="/videos">Վիդեոդասեր</a>
                           </li> --}}
                           <li class="nav-item">
-                            <a class="nav-link" href="/test">Թեստեր</a>
+                            <a class="nav-link" href="/subject">Առարկաներ</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="/book">Գրքեր</a>
+                            <a class="nav-link" href="/course">Դասընթացներ </a>
                           </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/test">Թեստեր</a>
+                          </li>
+                          
                           <li class="nav-item">
                             <a class="nav-link" href="/connect">Հետադարձ կապ</a>
                           </li>

@@ -36,17 +36,20 @@
               <a href="/admin/course">Դասընթացներ</a>
             </li>
             <li class="list-group-item  bg-blue text-secondary">
+              <a href="/admin/subject">Առարկաներ</a>
+            </li>
+            <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/test">Թեստեր</a>
             </li>
             <li class="list-group-item  bg-blue text-secondary">
-              <a href="/admin/books">Գրքեր</a>
+              <a href="/admin/books">Վիդեոդասեր</a>
             </li>
-            <li class="list-group-item  bg-blue text-secondary">
+            {{-- <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/admins">Ադմիններ</a>
-            </li>
-            <li class="list-group-item  bg-blue text-secondary">
+            </li> --}}
+            {{-- <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/users">Օգտագործողներ</a>
-            </li>
+            </li> --}}
             
             {{-- <li class="list-group-item  bg-blue text-secondary"></li> --}}
           </ul>

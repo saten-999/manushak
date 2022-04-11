@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use App\Models\Admin;
-use App\Models\User;
+use App\User;
 use Hash;
 class CreateAdmin extends Command
 {
@@ -39,16 +39,18 @@ class CreateAdmin extends Command
      */
     public function handle()
     {
-        Admin::create([
-            'name' => 'Admin',
-            'email' => 'admin@gmail.com',
-            'password' =>  Hash::make('admin2022'),
-
-        ]);
+       
         User::create([
             'name' => 'User',
             'email' => 'user@gmail.com',
             'password' =>  Hash::make('user2022'),
+
+        ]);
+
+        Admin::create([
+            'name' => 'Admin',
+            'email' => 'admin@gmail.com',
+            'password' =>  Hash::make('admin2022'),
 
         ]);
         return 0;

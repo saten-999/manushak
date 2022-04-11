@@ -32,6 +32,11 @@ Route::get('/test/{id}', 'TestController@show');
     Route::get('/certificate',   'CourseController@certificate');
 // });
 
+Route::get('/book',             'SubjectController@index');
+Route::get('/subject',          'SubjectController@subject');
+Route::get('/sub',          'SubjectController@info');
+
+
 
 Route::prefix('admin')->group(function() {
 
@@ -58,5 +63,8 @@ Route::prefix('admin')->group(function() {
 
     Route::post('/test-name',  'TestController@store_test');
 
+
+    Route::get('/subject', 'SubjectController@index');
+    Route::post('/subject', 'SubjectController@adminIndex');
 
    }) ;

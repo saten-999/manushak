@@ -140,6 +140,7 @@ class CourseController extends Controller
 
 
     public function certificate(){
+        
         return view('certificate');
     }
 }

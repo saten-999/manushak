@@ -25,8 +25,9 @@ window.sel = function (is_correct,id,k) {
 window.finish = function () {
     
     i = localStorage.getItem("i");
-    if(i>1){
-        window.location.href = "/certificate"
-    }
+    // if(i>1){
+    $('#test').html("Դուք ունեք"+i+"Ճիշտ պատասխան")
+        // window.location.href = "/certificate"
+    // }
     
 }

@@ -11,11 +11,11 @@
                 <div class="row mt-5">
                     @foreach ($courses as $course)
                         <div class="col-3 ">
-                            <div class="card mt-2" >
-                                <div class="card-header font-weight-bold h5">
+                            <div class="card mt-2 ca"  >
+                                <div class="card-header font-weight-bold ">
                                     {{$course->title}}
                                 </div>
-                                <ul class="list-group list-group-flush ca">
+                                <ul class="list-group list-group-flush ">
                                     <a href="/course/{{$test->id}}/{{$course->id}}" class="float-right ">
                                         <img src="{{asset("storage/".$test->img)}}" class="w-100 maincourse" >
                                     </a>
