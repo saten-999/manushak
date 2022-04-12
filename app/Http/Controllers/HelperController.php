@@ -30,6 +30,16 @@ class HelperController extends Controller
             'title' =>$request->title,
             'article' =>$request->text,
         ]);
+        return redirect('/admin/help');
+    }
+
+
+    public function help($id)
+    {
+      
+        return view('helper',[
+            'help' =>Helper::find($id)
+        ]);
     }
 
     /**

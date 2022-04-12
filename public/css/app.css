@@ -10909,6 +10909,7 @@ a.text-dark:focus {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .navbar a {

@@ -39,6 +39,7 @@ Route::get('/subject',          'SubjectController@subject');
 Route::get('/sub',              'SubjectController@info');
 
 Route::get('/help',             'HelperController@index');
+Route::get('/help/{id}',             'HelperController@help');
 
 Route::prefix('admin')->group(function() {
 
