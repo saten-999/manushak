@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Admin Dashboard</title>
 
+  <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+  <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+  
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
@@ -42,7 +45,7 @@
               <a href="/admin/test">Թեստեր</a>
             </li>
             <li class="list-group-item  bg-blue text-secondary">
-              <a href="/admin/books">Վիդեոդասեր</a>
+              <a href="/admin/help">Օգտակար Նյութեր</a>
             </li>
             {{-- <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/admins">Ադմիններ</a>

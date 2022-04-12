@@ -36,9 +36,9 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/book',             'SubjectController@index');
 Route::get('/subject',          'SubjectController@subject');
-Route::get('/sub',          'SubjectController@info');
+Route::get('/sub',              'SubjectController@info');
 
-
+Route::get('/help',             'HelperController@index');
 
 Route::prefix('admin')->group(function() {
 
@@ -68,5 +68,10 @@ Route::prefix('admin')->group(function() {
 
     Route::get('/subject', 'SubjectController@index');
     Route::post('/subject', 'SubjectController@adminIndex');
+
+
+    Route::get('/help', 'HelperController@adminIndex');
+    Route::post('/help', 'HelperController@store');
+
 
    }) ;

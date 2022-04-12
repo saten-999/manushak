@@ -62,7 +62,7 @@
                             <a class="nav-link" href="/course">Դասընթացներ </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="/helper">Օգտակար գործիքներ</a>
+                            <a class="nav-link" href="/help">Օգտակար գործիքներ</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="/subject">Դասագրքեր</a>

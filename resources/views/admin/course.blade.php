@@ -32,7 +32,7 @@
 
                       <div class="form-group row">
                         <label for="exampleFormControlTextarea1">Նյութը</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name="text"></textarea>
+                        <textarea class="ckeditor form-control" name="text"></textarea> 
                       </div>
 
                     <br>

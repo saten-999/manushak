@@ -10924,7 +10924,7 @@ a.text-dark:focus {
 }
 
 .bg-blue {
-  background-color: #74736e;
+  background-color: #7c7346;
 }
 
 #admin_menu ul {
@@ -10992,5 +10992,9 @@ a.text-dark:focus {
 
 #main {
   background-color: #d1c4b3;
+}
+
+#cke_text {
+  width: 100%;
 }
 
