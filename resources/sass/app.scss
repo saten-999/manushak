@@ -27,11 +27,11 @@
 }
 
 .dropdown-menu{
-    background-color: #7e6a3a;
+    background-color: #74736e;
 }
 
 .bg-blue{
-   background-color: #7e6a3a;
+   background-color: #74736e;
    
 }
 
@@ -81,4 +81,21 @@
 .book a {
     text-decoration: none ;
     color: white;
+}
+
+.hovereffect {
+    overflow:hidden;
+    text-align:center;
+}
+.hovereffect img {
+    transition:all .4s linear;
+}
+.hovereffect:hover img {
+    -webkit-transform:scale(1.2);
+    cursor: grab;
+}
+
+#main{
+    background-color: #d1c4b3;
+   
 }

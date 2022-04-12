@@ -22,15 +22,17 @@ Auth::routes();
 Route::get('/main', 'HomeController@index')->name('home');
 
 
-Route::get('/course/{test}/{course}',   'CourseController@maincourse');
-Route::get('/test',     'TestController@index');
-Route::get('/test/{id}', 'TestController@show');
 
-// Route::middleware('auth')->group(function () {
+Route::middleware('auth')->group(function () {
     Route::get('/course',       'CourseController@index');
     Route::get('/course/{d}',   'CourseController@course');
     Route::get('/certificate',   'CourseController@certificate');
-// });
+
+    Route::get('/course/{test}/{course}',   'CourseController@maincourse');
+    Route::get('/test',     'TestController@index');
+    Route::get('/test/{id}', 'TestController@show');
+
+});
 
 Route::get('/book',             'SubjectController@index');
 Route::get('/subject',          'SubjectController@subject');
