@@ -14,7 +14,7 @@
         rgba(0, 0, 0, 0.5)
       ), url(/images/back.jpg);
     min-height: 100vh;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -59,7 +59,7 @@
 }
 .maincourse{
     filter: brightness(50%);
-    height: 300px;
+    height: 200px;
 }
 .textt{
     line-height: 40px;

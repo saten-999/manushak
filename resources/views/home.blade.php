@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid py-5 mb-5" id="main">
+<div class="container-fluid py-5 mb-5 " id="main" >
     <div class="row">
         <div class="col-4 text-center">
             <h3>Կրթություն</h3>

@@ -4,7 +4,7 @@
 
 
 
-    <div class="container-fluid px-5 mt-4">
+    <div class="container-fluid px-5 ">
         <div class="row">
             <div class="col-12 px-5 mt-2">
 

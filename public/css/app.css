@@ -10906,7 +10906,7 @@ a.text-dark:focus {
 #app {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/back.jpg);
   min-height: 100vh;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -10949,7 +10949,7 @@ a.text-dark:focus {
 
 .maincourse {
   filter: brightness(50%);
-  height: 300px;
+  height: 200px;
 }
 
 .textt {
