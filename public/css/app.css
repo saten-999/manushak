@@ -10999,3 +10999,7 @@ a.text-dark:focus {
   width: 100%;
 }
 
+.bg-white {
+  background-color: #cecccc;
+}
+

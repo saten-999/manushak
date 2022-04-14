@@ -28,7 +28,7 @@
         <nav class="navbar navbar-expand-md   shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}" style="    margin-left: 100px;">
-                    <img src="/images/logo.png" alt="" style="width: 45px;">
+                    <img src="/images/logo.png" alt="" style="width: 45px;">Teacher Helper
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@
                             <a class="nav-link" href="/subject">Դասագրքեր</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="/connect">Բլոգ</a>
+                            <a class="nav-link" href="/blog">Բլոգ</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="/connect">Հետադարձ կապ</a>

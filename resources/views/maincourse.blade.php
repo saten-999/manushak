@@ -17,7 +17,7 @@
                                 </div>
                                 <ul class="list-group list-group-flush ">
                                     <a href="/course/{{$test->id}}/{{$course->id}}" class="float-right ">
-                                        <img src="{{asset("storage/".$test->img)}}" class="w-100 maincourse" >
+                                        <img src="/{{$test->img}}" class="w-100 maincourse" >
                                     </a>
                                 </ul>
                               
@@ -25,7 +25,7 @@
                             
                         </div>
                     @endforeach
-                    <div class="col-3 ca">
+                    {{-- <div class="col-3 ca">
                         <div class="card mt-2 " >
                             <div class="card-header font-weight-bold h5">
                                 Վերջնական թեստ
@@ -38,7 +38,7 @@
                           
                           </div>
                         
-                    </div>
+                    </div> --}}
                 </div>            
             </div>
         </div>
