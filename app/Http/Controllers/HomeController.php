@@ -35,4 +35,9 @@ class HomeController extends Controller
     {
         return view('about');
     }
+
+    public function connect()
+    {
+        return view('connect');
+    }
 }

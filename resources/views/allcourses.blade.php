@@ -7,7 +7,7 @@
             <div class="col-12 px-5 mt-2 " >
                 <h1>{{$courses->title}}</h1>
                 <div class="row mt-5 h5 textt">
-                    {{$courses->text}}
+                    {!!$courses->text!!}
                 </div>            
             </div>
     </div>
