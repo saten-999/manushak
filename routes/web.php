@@ -39,7 +39,9 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/book',             'SubjectController@index');
 Route::get('/subject',          'SubjectController@subject');
+Route::get('/subjectt',          'SubjectController@subjectt');
 Route::get('/sub',              'SubjectController@info');
+Route::get('/subb',              'SubjectController@infoo');
 
 Route::get('/help',             'HelperController@index');
 Route::get('/help/{id}',             'HelperController@help');

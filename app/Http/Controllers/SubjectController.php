@@ -25,6 +25,10 @@ class SubjectController extends Controller
         return view('subject');
     }
 
+    public function subjectt()
+    {
+        return view('subjectt');
+    }
 
     public function adminIndex(Request $request)
     {
@@ -51,6 +55,12 @@ class SubjectController extends Controller
         ]);
     }
 
+    public function infoo()
+    {
+        return view('subinfo',[
+            'sub' => Subject::orderBy('class','ASC')->get()
+        ]);
+    }
     /**
      * Store a newly created resource in storage.
      *

@@ -24,7 +24,7 @@
 }
 
 .bg-light{
-    background-color: #e1ccb1!important;
+    background-color: #b1d0dd!important;
 }
 
 .dropdown-menu{
@@ -106,4 +106,17 @@
 }
 .bg-white{
     background-color: rgb(206, 204, 204);
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner {
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 700px;
+}
+
+#fh5co-hero .flexslider .slider-text {
+    display: table;
+    opacity: 0;
+    min-height: 630px;
+    height: 630px;
+    z-index: 9;
 }

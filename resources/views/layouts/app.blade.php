@@ -10,7 +10,7 @@
     <title>Ուսուցման Համակարգ</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
 
     @yield('scripts')
@@ -59,10 +60,10 @@
                           </li> --}}
                           
                           <li class="nav-item">
-                            <a class="nav-link" href="/course">Դասընթացներ </a>
+                            <a class="nav-link" href="/subjectt">Առարկաներ </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="/help">Օգտակար գործիքներ</a>
+                            <a class="nav-link" href="/course">Օգտակար գործիքներ</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="/subject">Դասագրքեր</a>
@@ -102,7 +103,7 @@
             </div>
         </nav>
 
-        <main class="py-5" >
+        <main class="" >
             @yield('content')
         </main>
     </div>
