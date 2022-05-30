@@ -48,3 +48,7 @@ $(function () {
     });
     
 });
+
+$('#send').click(function() {
+    $('#fh5co-contact').html('<p class="text-center text-success h3">Նամակն ուղարկված է</p>')
+  });
