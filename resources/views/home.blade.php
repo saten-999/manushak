@@ -1,7 +1,32 @@
 @extends('layouts.app')
 
 @section('scripts')
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
 
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{{ asset('mainnn/css/animate.css') }}">
+	<link rel="stylesheet" href="{{ asset('mainnn/css/icomoon.css') }}">
+	<link rel="stylesheet" href="{{ asset('mainnn/css/bootstrap.css') }}">
+	<link rel="stylesheet" href="{{ asset('mainnn/css/magnific-popup.css') }}">
+	<link rel="stylesheet" href="{{ asset('mainnn/css/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('mainnn/css/owl.theme.default.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('mainnn/css/flexslider.css') }}">
+	<link rel="stylesheet" href="{{ asset('mainnn/css/style.css') }}">
+
+    <script src="{{ asset('mainnn/js/modernizr-2.6.2.min.js') }}"></script>
+    <script src="{{ asset('mainnn/js/jquery.min.js') }}"></script>
+	<script src="{{ asset('mainnn/js/jquery.easing.1.3.js') }}"></script>
+	<script src="{{ asset('mainnn/js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('mainnn/js/jquery.waypoints.min.js') }}"></script>
+	<script src="{{ asset('mainnn/js/jquery.stellar.min.js') }}"></script>
+	<script src="{{ asset('mainnn/js/owl.carousel.min.js') }}"></script>
+	<script src="{{ asset('mainnn/js/jquery.flexslider-min.js') }}"></script>
+	<script src="{{ asset('mainnn/js/jquery.countTo.js') }}"></script>
+	<script src="{{ asset('mainnn/js/jquery.magnific-popup.min.js') }}"></script>
+	<script src="{{ asset('mainnn/js/magnific-popup-options.js') }}"></script>
+	<script src="{{ asset('mainnn/js/simplyCountdown.js') }}"></script>
+	<script src="{{ asset('mainnn/js/main.js') }}"></script>
 	{{-- <script>
     var d = new Date(new Date().getTime() + 1000 * 120 * 120 * 2000);
 
