@@ -6,7 +6,7 @@
     <div class="row ">
         @foreach ($sub as $item)
         
-            <div class="col-3  m-1 book ">  
+            <div class="col-3  book ">  
                 <a href="/{{$item->book}}" target="_blank" class="h2"> 
                     <p class="text-center tex-twhite text-decoration-none">Ինֆորմատիկա </p>
                     <p class="text-center tex-twhite text-decoration-none">{{$item->class}}-րդ Դասարան </p>
