@@ -1,4 +1,4 @@
-// require('./bootstrap');
+require('./bootstrap');
 
 
 var i=0;
@@ -33,21 +33,21 @@ window.finish = function () {
 }
 
 
-$(function () {
+// $(function () {
 
-    // Initate masonry grid
-    var $grid = $('.gallery-wrapper').masonry({
-        temSelector: '.grid-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true,
-    });
+//     // Initate masonry grid
+//     var $grid = $('.gallery-wrapper').masonry({
+//         temSelector: '.grid-item',
+//         columnWidth: '.grid-sizer',
+//         percentPosition: true,
+//     });
 
-    // Initate imagesLoaded
-    $grid.imagesLoaded().progress( function() {
-        $grid.masonry('layout');
-    });
+//     // Initate imagesLoaded
+//     $grid.imagesLoaded().progress( function() {
+//         $grid.masonry('layout');
+//     });
     
-});
+// });
 
 $('#send').click(function() {
     $('#fh5co-contact').html('<p class="text-center text-success h3">Նամակն ուղարկված է</p>')

@@ -10,17 +10,17 @@
             </div>
             <div class="col-3 dasht">
                 <div>
-                    <a href="{{asset('file/Դասիպլան.docx') }}">Դասի պլան</a>
+                    <a href="{{asset('file/Դասիպլան.pdf') }}">Դասի պլան</a>
                 </div>
             </div>
             <div class="col-3 dasht">
                 <div>
-                    <a href="{{asset('file/Հաշվետվություն.docx') }}">Հաշվետվության ձև</a>
+                    <a href="{{asset('file/Հաշվետվություն.pdf') }}">Հաշվետվության ձև</a>
                 </div>
             </div>
             <div class="col-3 dasht">
                 <div>
-                    <a href="{{asset('file/Դասալսմանբլանկ.docx') }}">Դասալսման բլանկ</a>
+                    <a href="{{asset('file/Դասալսմանբլանկ.pdf') }}">Դասալսման բլանկ</a>
                 </div>
             </div>
             <div class="col-3 dasht">

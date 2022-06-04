@@ -9,18 +9,17 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('mainlogin/css/util.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('mainlogin/css/main.css')}}">
 
-
-	    <script src="{{ asset('mainlogin/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
-        <script src="{{ asset('mainlogin/vendor/bootstrap/js/popper.js')}}"></script>
-        <script src="{{ asset('mainlogin/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
-        <script src="{{ asset('mainlogin/vendor/select2/select2.min.js')}}"></script>
-        <script src="{{ asset('mainlogin/vendor/tilt/tilt.jquery.min.js')}}"></script>
-        <script >
-            $('.js-tilt').tilt({
-                scale: 1.1
-            })
-        </script>
-        <script src="{{ asset('mainlogin/js/main.js')}}"></script>
+    <script src="{{ asset('mainlogin/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{ asset('mainlogin/vendor/bootstrap/js/popper.js')}}"></script>
+    <script src="{{ asset('mainlogin/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset('mainlogin/vendor/select2/select2.min.js')}}"></script>
+    <script src="{{ asset('mainlogin/vendor/tilt/tilt.jquery.min.js')}}"></script>
+    <script >
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+    <script src="{{ asset('mainlogin/js/main.js')}}"></script>
 @endsection
 
 @section('content')
