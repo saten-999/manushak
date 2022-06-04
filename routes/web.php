@@ -38,6 +38,8 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/book',             'SubjectController@index');
+Route::get('/plan',             'SubjectController@plan');
+Route::get('/kisamyak',             'SubjectController@kisamyak');
 Route::get('/subject',          'SubjectController@subject');
 Route::get('/subjectt',          'SubjectController@subjectt');
 Route::get('/sub',              'SubjectController@info');

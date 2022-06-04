@@ -67,9 +67,18 @@ class SubjectController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function plan()
     {
-        //
+        return view('plan',[
+            // 'sub' => Subject::orderBy('class','ASC')->get()
+        ]);
+    }
+
+    public function kisamyak()
+    {
+        return view('kisamyak',[
+            // 'sub' => Subject::orderBy('class','ASC')->get()
+        ]);
     }
 
     /**

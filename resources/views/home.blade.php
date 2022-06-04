@@ -27,7 +27,7 @@
 	<script src="{{ asset('mainnn/js/magnific-popup-options.js') }}"></script>
 	<script src="{{ asset('mainnn/js/simplyCountdown.js') }}"></script>
 	<script src="{{ asset('mainnn/js/main.js') }}"></script>
-	{{-- <script>
+	<script>
     var d = new Date(new Date().getTime() + 1000 * 120 * 120 * 2000);
 
     // default example
@@ -44,7 +44,7 @@
         day: d.getDate(),
         enableUtc: false
     });
-	</script> --}}
+	</script>
     
 @endsection
 

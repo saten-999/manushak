@@ -35,12 +35,16 @@ class CourseController extends Controller
 
     public function maincourse($test, $course)
     {
+        $t =Test::find($test)->courses()->where('courses.id',$course)->first();
+        if(!empty($t)){
+            return view('allcourses',[
+                'courses' => $t ,
+                'test'    => Question::where('test_id',$test)->with('options')->where('course_id',$course)->get()->toArray()
+            ]);
+        }
         // echo "<pre>";
         // var_dump(Test::find($test)->courses()->where('courses.id',$course)->get()); die;
-        return view('allcourses',[
-            'courses' => Test::find($test)->courses()->where('courses.id',$course)->first(),
-            'test'    => Question::where('test_id',$test)->with('options')->where('course_id',$course)->get()->toArray()
-        ]);
+        return redirect('course/'.$test);
     }
 
     public function adminIndex()

@@ -35,7 +35,7 @@
 
     <div>
         <button class="btn btn-success float-right">
-            <a href="/course/{{$courses->test_id}}" class="text-white text-decoration-none p-3 mt-3">Հաջորդը</a>
+            <a href="/course/{{$courses->test_id}}/{{$courses->id +1}}" class="text-white text-decoration-none p-3 mt-3">Հաջորդը</a>
         </button>
 
     </div>
