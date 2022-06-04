@@ -2,9 +2,6 @@
 
 @section('content')
 
-    <div class="w-100">
-        <iframe src="https://drive.google.com/file/d/1YmcYQAh4aWR4nN2QlF7xYNG-SDa8rM9c/view" frameborder="0"></iframe>
-    </div>
 
 
     <div class="container-fluid px-5 ">
