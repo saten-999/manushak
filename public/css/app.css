@@ -10916,6 +10916,10 @@ a.text-dark:focus {
   color: white;
 }
 
+.dropdown-menu a {
+  color: black;
+}
+
 .dropdown-menu {
   background-color: #74736e;
 }
