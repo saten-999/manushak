@@ -10939,7 +10939,7 @@ a.text-dark:focus {
 .category {
   border: 1px solid black;
   border-radius: 50%;
-  width: 80%;
+  width: 0%;
   height: 200px;
   display: flex;
   justify-content: center;
