@@ -41,13 +41,12 @@
   list-style: none;
   font-size: $font-size-base;
   text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
-  background-color: $dropdown-bg;
   border: 1px solid $dropdown-fallback-border; // IE8 fallback
   border: 1px solid $dropdown-border;
   border-radius: $border-radius-base;
   @include box-shadow(0 6px 12px rgba(0,0,0,.175));
   background-clip: padding-box;
-
+  background-color: #142c36;
   // Aligns the dropdown menu to right
   //
   // Deprecated as of 3.1.0 in favor of `.dropdown-menu-[dir]`
@@ -60,6 +59,15 @@
   .divider {
     @include nav-divider($dropdown-divider-bg);
   }
+
+  .dropdown-menu  a{
+    color: white;
+}
+
+// .bg-light{
+//     background-color: #b1d0dd!important;
+// }
+
 
   // Links within the dropdown menu
   > li > a {
