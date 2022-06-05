@@ -57,18 +57,16 @@
                           {{-- <li class="nav-item">
                             <a class="nav-link" href="/videos">Վիդեոդասեր</a>
                           </li> --}}
-                          
 
                           <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/subject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 Առարկաներ
                             </a>
-
                             <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/course">Ինֆորմատիկա</a>
-                            <a class="dropdown-item" href="/course">Հանրահաշիվ</a>
-                            <a class="dropdown-item" href="/course">Երկրաչափություն</a>
-                            <a class="dropdown-item" href="/course">Հայոց պատմություն</a>
+                            <a class="dropdown-item" href="/subb">Ինֆորմատիկա</a>
+                            <a class="dropdown-item" href="/subb">Հանրահաշիվ</a>
+                            <a class="dropdown-item" href="/subb">Երկրաչափություն</a>
+                            <a class="dropdown-item" href="/subb">Հայոց պատմություն</a>
                             </div>
                         </li>
                           <li class="nav-item">
