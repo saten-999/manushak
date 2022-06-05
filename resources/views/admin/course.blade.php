@@ -80,7 +80,7 @@
     </div>
     <div class="row mt-5">
         @foreach ($courses as $course)
-            <div class="collg--3 ">
+            <div class="col-lg-3 ">
                 <div class="card mt-2" >
                     <div class="card-header font-weight-bold h4">
                         {{$course->title}}
