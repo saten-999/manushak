@@ -64,7 +64,7 @@
                             </a>
                             <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="/subb">Ինֆորմատիկա</a>
-                            <a class="dropdown-item" href="/subb">Հանրահաշիվ</a>
+                            <a class="dropdown-item" href="/sub">Հանրահաշիվ</a>
                             <a class="dropdown-item" href="/subb">Երկրաչափություն</a>
                             <a class="dropdown-item" href="/subb">Հայոց պատմություն</a>
                             </div>
@@ -79,7 +79,7 @@
 
                                 <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="/sub">Ինֆորմատիկա</a>
-                                <a class="dropdown-item" href="/sub">Հանրահաշիվ</a>
+                                <a class="dropdown-item" href="/hanrahashiv">Հանրահաշիվ</a>
                                 <a class="dropdown-item" href="/sub">Երկրաչափություն</a>
                                 <a class="dropdown-item" href="/sub">Հայոց պատմություն</a>
                                 </div>

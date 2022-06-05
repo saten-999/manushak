@@ -46,6 +46,7 @@ Route::get('/subject',          'SubjectController@subject');
 Route::get('/subjectt',          'SubjectController@subjectt');
 Route::get('/sub',              'SubjectController@info');
 Route::get('/subb',              'SubjectController@infoo');
+Route::get('/hanrahashiv',              'SubjectController@hanrahashiv');
 
 Route::get('/help',             'HelperController@index');
 Route::get('/help/{id}',             'HelperController@help');

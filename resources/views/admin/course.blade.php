@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-    {{-- <div class="row mt-5">
+    <div class="row mt-5">
         @foreach ($courses as $course)
             <div class="col-3 ">
                 <div class="card mt-2" >
@@ -95,7 +95,7 @@
                 
             </div>
         @endforeach
-    </div> --}}
+    </div>
 </div>
 
   

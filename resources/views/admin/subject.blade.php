@@ -14,6 +14,15 @@
                     @csrf
                     @method('post')
                     <div class="form-group row">
+                        <label for="exampleFormControlInput1">Ընտրեք թեման</label>
+                        <select class="custom-select custom-select-lg"   name="test_name">
+                            <option value="">Ինֆորմատիկա</option> 
+                            <option value="">Հանրահաշիվ</option> 
+                            <option value="">Երկրաչափություն</option> 
+                            <option value="">Հայոց Պատմությում</option> 
+                        </select>
+                    </div>
+                    <div class="form-group row">
                         <label for="exampleFormControlInput1">Դասարան</label>
                         <input type="text"  required class="form-control" name="title" id="exampleFormControlInput1" placeholder="Դասարան">
                       </div>

@@ -32,11 +32,16 @@ class SubjectController extends Controller
 
     public function adminIndex(Request $request)
     {
-        $book = Storage::putFile('book',    $request->file('book'));
+        // $book = Storage::putFile('book',    $request->file('book'));
+
+        // Subject::create([
+        //     'class' => $request->title, 
+        //     'book'  => $book,
+        // ]);
 
         Subject::create([
-            'class' => $request->title, 
-            'book'  => $book,
+            'class' => 7, 
+            'book'  => 'book/7hanr․pdf',
         ]);
 
 
@@ -58,6 +63,13 @@ class SubjectController extends Controller
     public function infoo()
     {
         return view('subinfo',[
+            'sub' => Subject::orderBy('class','ASC')->get()
+        ]);
+    }
+
+    public function hanrahashiv()
+    {
+        return view('hanrahashiv',[
             'sub' => Subject::orderBy('class','ASC')->get()
         ]);
     }
