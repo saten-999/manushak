@@ -49,7 +49,7 @@
 </head>
 <body>
     <div id="app" >
-        <nav class="navbar navbar-expand-md   shadow-sm">
+		<nav class="navbar navbar-expand-md   shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}" style="    margin-left: 100px;">
                     <img src="/images/logo.png" alt="" style="width: 45px;">Teacher Helper
@@ -81,18 +81,16 @@
                           {{-- <li class="nav-item">
                             <a class="nav-link" href="/videos">Վիդեոդասեր</a>
                           </li> --}}
-                          
 
                           <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/subject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                Առարկաներ
+                                Ձևանմուշներ
                             </a>
-
                             <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/course">Ինֆորմատիկա</a>
-                            <a class="dropdown-item" href="/course">Հանրահաշիվ</a>
-                            <a class="dropdown-item" href="/course">Երկրաչափություն</a>
-                            <a class="dropdown-item" href="/course">Հայոց պատմություն</a>
+                            <a class="dropdown-item" href="/subb">Ինֆորմատիկա</a>
+                            <a class="dropdown-item" href="#">Հանրահաշիվ</a>
+                            <a class="dropdown-item" href="#">Երկրաչափություն</a>
+                            <a class="dropdown-item" href="#">Հայոց պատմություն</a>
                             </div>
                         </li>
                           <li class="nav-item">
@@ -105,9 +103,9 @@
 
                                 <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="/sub">Ինֆորմատիկա</a>
-                                <a class="dropdown-item" href="/sub">Հանրահաշիվ</a>
-                                <a class="dropdown-item" href="/sub">Երկրաչափություն</a>
-                                <a class="dropdown-item" href="/sub">Հայոց պատմություն</a>
+                                <a class="dropdown-item" href="/hanrahashiv">Հանրահաշիվ</a>
+                                <a class="dropdown-item" href="#">Երկրաչափություն</a>
+                                <a class="dropdown-item" href="#">Հայոց պատմություն</a>
                                 </div>
                             </li>
                           <li class="nav-item">
