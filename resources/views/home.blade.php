@@ -97,9 +97,7 @@
                           <li class="nav-item">
                             <a class="nav-link" href="/connect">Հետադարձ կապ</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="/about">Մեր մասին</a>
-                          </li>
+    
                           
                           @guest
                           @else

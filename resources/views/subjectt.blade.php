@@ -23,7 +23,7 @@
         <div class="col-3  ">  
             <a href="//" class=" h2 ">
                 <img src="images/2.jpg" alt="" class="category">
-                <p class="text-center text-white text-decoration-none">Պատմություն</p>
+                <p class="text-center text-white text-decoration-none">Հայոց Պատմություն</p>
             </a>
         </div>
         <div class="col-3  ">  
