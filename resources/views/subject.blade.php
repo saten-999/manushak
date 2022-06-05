@@ -26,13 +26,13 @@
                 <p class="text-center text-white text-decoration-none">Հայոց Պատմություն</p>
             </a>
         </div>
-        <div class="col-3  ">  
+        <div class="col-lg-3  ">  
             <a href="/course" class=" h2 ">
                 <img src="images/3.jpg" alt="" class="category">
                 <p class="text-center text-white text-decoration-none">Հանրահաշիվ</p>
             </a>
         </div>
-        <div class="col-3  ">  
+        <div class="col-lg-3  ">  
             <a href="" class=" h2 ">
                 <img src="images/4.jpg" alt="" class="category">
                 <p class="text-center text-white text-decoration-none">Երկրաչափություն</p>

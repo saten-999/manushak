@@ -6,7 +6,7 @@
     <div class="row ">
         @foreach ($test as $item)
         
-            <div class="col-3  mt-1">
+            <div class="col-lg-3  mt-1">
                 @if ($item->id == 1)
                 <a href="/course/{{$item->id}}" class=" h2 ">
                     {{-- <img src="{{asset("storage/".$item->img)}}" alt="" class="category"> --}}
