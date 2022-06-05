@@ -4,11 +4,11 @@
 <div class="container-fluid">
     <div class="row mt-4">
         <div class="col-12">
-            <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#add_course" aria-expanded="false" aria-controls="collapseExample">
-                Ավելացնել Դասեր
-            </button>
             <button class="btn btn-warning " type="button" data-toggle="collapse" data-target="#add_test" aria-expanded="false" aria-controls="collapseExample">
                 Ավելացնել Դասընթաց
+            </button>
+            <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#add_course" aria-expanded="false" aria-controls="collapseExample">
+                Ավելացնել Դասեր
             </button>
         </div>
         <div class="collapse mt-5 w-100" id="add_course">
