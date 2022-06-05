@@ -17,7 +17,7 @@
                     @csrf
 
                     <div class="form-group row">
-                        <label for="exampleFormControlInput1">Ընտրեք թեման</label>
+                        <label for="exampleFormControlInput1">Ընտրեք բաժին</label>
                         <select class="custom-select custom-select-lg"  required name="test_name">
                           @foreach ($test_name as $item)
                             <option value="{{$item->id}}">{{$item->name}}</option> 
