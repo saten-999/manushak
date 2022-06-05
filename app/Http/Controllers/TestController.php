@@ -59,7 +59,7 @@ class TestController extends Controller
 
         Test::create([
             'name' => $request->test_name,
-            'img' => $img
+            'img' => 'course-img/smm.jpg'
         ]);
 
         return redirect('/admin/course');

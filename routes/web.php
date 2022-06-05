@@ -62,6 +62,7 @@ Route::prefix('admin')->group(function() {
     Route::post('/course',  'CourseController@store');
     Route::get('/course/{id}', 'CourseController@edit');
     Route::put('/course/{id}', 'CourseController@update');
+    Route::get('/course/delete/{id}', 'CourseController@destroy');
 
     Route::get('/books',        'BookController@adminIndex');
     Route::post('/add-book',    'BookController@store');

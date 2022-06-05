@@ -5,9 +5,9 @@
 <div class="container-fluid">
     <div class="row mt-4">
         <div class="col-12">
-            <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#add_course" aria-expanded="false" aria-controls="collapseExample">
+            {{-- <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#add_course" aria-expanded="false" aria-controls="collapseExample">
                 Ավելացնել Թեստեր
-            </button>
+            </button> --}}
             
           
 

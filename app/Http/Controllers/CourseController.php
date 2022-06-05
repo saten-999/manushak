@@ -135,9 +135,11 @@ class CourseController extends Controller
      * @param  \App\Course  $course
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Course $course)
+    public function destroy(Request $request, Course $course)
     {
-        //
+        Course::destroy($request->id);
+        
+        return redirect('/admin/course');
     }
 
 

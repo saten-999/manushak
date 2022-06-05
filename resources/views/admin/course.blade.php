@@ -86,10 +86,11 @@
                         {{$course->title}}
                     </div>
                     <ul class="list-group list-group-flush p-3">
-                        {{substr($course->text, 0, 400)}} 
+                        {{-- {{substr($course->text, 0, 400)}}  --}}
                     </ul>
                     <div>
-                        <a href="/admin/course/{{$course->id}}" class="float-right py-2 mr-2">Խմբագրել</a>
+                        <a href="/admin/course/{{$course->id}}" class="float-left py-2 mr-2">Խմբագրել</a>
+                        <a href="/admin/course/delete/{{$course->id}}" class="float-right py-2 mr-2 text-danger">Ջնջել</a>
                     </div>
                 </div>
                 

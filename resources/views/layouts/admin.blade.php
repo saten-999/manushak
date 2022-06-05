@@ -42,7 +42,7 @@
               <a href="/admin/subject">Առարկաներ</a>
             </li>
             <li class="list-group-item  bg-blue text-secondary">
-              <a href="/admin/test">Թեստեր</a>
+              <a href="/admin/test">Թեմաներ</a>
             </li>
             {{-- <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/help">Օգտակար Նյութեր</a>
