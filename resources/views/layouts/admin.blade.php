@@ -39,11 +39,11 @@
               <a href="/admin/course">Օգտակար Նյութեր</a>
             </li>
             <li class="list-group-item  bg-blue text-secondary">
-              <a href="/admin/subject">Առարկաներ</a>
+              <a href="/admin/subject">Դասագրքեր</a>
             </li>
-            {{-- <li class="list-group-item  bg-blue text-secondary">
+            <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/test">Թեմաներ</a>
-            </li> --}}
+            </li>
             {{-- <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/help">Օգտակար Նյութեր</a>
             </li> --}}
