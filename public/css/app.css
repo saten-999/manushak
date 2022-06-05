@@ -10966,6 +10966,7 @@ a.text-dark:focus {
   display: flex;
   justify-content: center;
   height: 200px;
+  width: 75%;
   align-items: center;
   border: 1px solid gray;
   border-radius: 21px;

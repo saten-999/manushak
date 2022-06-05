@@ -16,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return redirect('/main');
 });
-Route::get('/login', function () {
-    return redirect('/main');
-});
 
 
 
