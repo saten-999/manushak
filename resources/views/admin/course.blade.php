@@ -5,10 +5,10 @@
     <div class="row mt-4">
         <div class="col-12">
             <button class="btn btn-warning " type="button" data-toggle="collapse" data-target="#add_test" aria-expanded="false" aria-controls="collapseExample">
-                Ավելացնել Դասընթաց
+                Ավելացնել Բաժին
             </button>
             <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#add_course" aria-expanded="false" aria-controls="collapseExample">
-                Ավելացնել Դասեր
+                Ավելացնել Նյութը
             </button>
         </div>
         <div class="collapse mt-5 w-100" id="add_course">
@@ -80,7 +80,7 @@
     </div>
     <div class="row mt-5">
         @foreach ($courses as $course)
-            <div class="col-3 ">
+            <div class="collg--3 ">
                 <div class="card mt-2" >
                     <div class="card-header font-weight-bold h4">
                         {{$course->title}}
