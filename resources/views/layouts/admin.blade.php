@@ -36,7 +36,7 @@
         <div class="col-2 bg-blue text-secondary p-0" id="admin_menu">
           <ul class="list-group  mt-5">
             <li class="list-group-item  bg-blue text-secondary">
-              <a href="/admin/course">Դասընթացներ</a>
+              <a href="/admin/course">Օգտակար Նյութեր</a>
             </li>
             <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/subject">Առարկաներ</a>
@@ -44,9 +44,9 @@
             <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/test">Թեստեր</a>
             </li>
-            <li class="list-group-item  bg-blue text-secondary">
+            {{-- <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/help">Օգտակար Նյութեր</a>
-            </li>
+            </li> --}}
             {{-- <li class="list-group-item  bg-blue text-secondary">
               <a href="/admin/admins">Ադմիններ</a>
             </li> --}}
