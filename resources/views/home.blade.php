@@ -95,7 +95,7 @@
 
                             <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
                                <a class="dropdown-item" href="/sub">Ինֆորմատիկա</a>
-                               <a class="dropdown-item" href="/">Հանրապետության</a>
+                               <a class="dropdown-item" href="/">Հանրահաշիվ</a>
                                <a class="dropdown-item" href="/">Երկրաչափություն</a>
                                <a class="dropdown-item" href="/">Հայոց պատմություն</a>
                             </div>
