@@ -82,26 +82,34 @@
                             <a class="nav-link" href="/videos">Վիդեոդասեր</a>
                           </li> --}}
                           
-                          <li class="nav-item">
-                            <a class="nav-link" href="/subjectt">Առարկաներ </a>
-                          </li>
+
+                          <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/subject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                Առարկաներ
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/course">Ինֆորմատիկա</a>
+                            <a class="dropdown-item" href="/course">Հանրահաշիվ</a>
+                            <a class="dropdown-item" href="/course">Երկրաչափություն</a>
+                            <a class="dropdown-item" href="/course">Հայոց պատմություն</a>
+                            </div>
+                        </li>
                           <li class="nav-item">
                             <a class="nav-link" href="/course">Օգտակար գործիքներ</a>
                           </li>
                           <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/subject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                Դասագրքեր
-                            </a>
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="/subject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    Դասագրքեր
+                                </a>
 
-                            <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
-                               <a class="dropdown-item" href="/sub">Ինֆորմատիկա</a>
-                               <a class="dropdown-item" href="/sub">Հանրահաշիվ</a>
-                               <a class="dropdown-item" href="/sub">Երկրաչափություն</a>
-                               <a class="dropdown-item" href="/sub">Հայոց պատմություն</a>
-                               <a class="dropdown-item" href="/sub">Հայոց լեզու </a>
-                               <a class="dropdown-item" href="/sub">Գրականություն</a>
-                            </div>
-                        </li>
+                                <div class="dropdown-menu dropdown-menu-right text-black" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/sub">Ինֆորմատիկա</a>
+                                <a class="dropdown-item" href="/sub">Հանրահաշիվ</a>
+                                <a class="dropdown-item" href="/sub">Երկրաչափություն</a>
+                                <a class="dropdown-item" href="/sub">Հայոց պատմություն</a>
+                                </div>
+                            </li>
                           <li class="nav-item">
                             <a class="nav-link" href="/blog">Բլոգ</a>
                           </li>
