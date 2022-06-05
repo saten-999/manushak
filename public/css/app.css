@@ -10939,7 +10939,7 @@ a.text-dark:focus {
 .category {
   border: 1px solid black;
   border-radius: 50%;
-  width: 0%;
+  width: 75%;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -10965,7 +10965,7 @@ a.text-dark:focus {
   background-color: #664e85;
   display: flex;
   justify-content: center;
-  height: 300px;
+  height: 200px;
   align-items: center;
   border: 1px solid gray;
   border-radius: 21px;
